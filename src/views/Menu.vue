@@ -6,7 +6,23 @@
 
 <script>
 export default {
-  name: "Menu"
+  name: "Menu",
+  data() {
+    return {
+      menu: [
+        {
+          name: 'Cheeseburger',
+          price: '7',
+          desc: 'Cheesy goodness'
+        },
+        {
+          name: 'Chicken Parm Sub',
+          price: '10',
+          desc: 'Classic!'
+        }
+      ]
+    }
+  }
 }
 </script>
 
