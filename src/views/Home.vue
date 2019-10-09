@@ -1,5 +1,6 @@
 <template>
   <div class="home">
+    <h1>Welcome!</h1>
     <p>
       Lorem ipsum text.
     </p>
@@ -15,3 +16,9 @@ export default {
   }
 };
 </script>
+
+<style scoped>
+  .home {
+    margin: 3rem auto;
+  }
+</style>

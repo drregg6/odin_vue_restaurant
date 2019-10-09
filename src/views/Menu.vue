@@ -21,16 +21,40 @@ export default {
     return {
       menu: [
         {
-          image: 'http://placehold.it/250x250',
+          image: 'http://placekitten.com/250/250',
           name: 'Cheeseburger',
           price: '7',
           desc: 'Cheesy goodness'
         },
         {
-          image: 'http://placehold.it/250x250',
+          image: 'http://placekitten.com/250/250',
           name: 'Chicken Parm Sub',
           price: '10',
           desc: 'Classic!'
+        },
+        {
+          image: 'http://placekitten.com/250/250',
+          name: 'Eggplamt Parm Sub',
+          price: '10',
+          desc: 'For the vegetarians!'
+        },
+        {
+          image: 'http://placekitten.com/250/250',
+          name: 'Reuben',
+          price: '10',
+          desc: 'Deli-licious!'
+        },
+        {
+          image: 'http://placekitten.com/250/250',
+          name: 'Cheesesteak',
+          price: '10',
+          desc: 'Philly knows hoagies!'
+        },
+        {
+          image: 'http://placekitten.com/250/250',
+          name: 'Grilled Cheese',
+          price: '10',
+          desc: 'With or without tomato!'
         }
       ]
     }
@@ -39,10 +63,14 @@ export default {
 </script>
 
 <style scoped>
+  .menu {
+    margin: 3rem auto;
+  }
   .container {
     display: flex;
 
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
   }
 </style>

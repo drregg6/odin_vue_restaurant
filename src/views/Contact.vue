@@ -24,5 +24,7 @@ export default {
 </script>
 
 <style scoped>
-
+  .contact {
+    margin: 3rem auto;
+  }
 </style>

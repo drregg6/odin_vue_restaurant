@@ -20,6 +20,6 @@ export default {
 
 <style scoped>
   .menu-item {
-    margin: 0 2rem;
+    margin: 1rem 2rem;
   }
 </style>
