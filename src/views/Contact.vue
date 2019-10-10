@@ -1,12 +1,23 @@
 <template>
   <div class="contact">
-    <h1>Contact</h1>
+    <h2>Contact</h2>
+    <div class="container">
+      <Address v-bind:address="address" v-bind:phone="phone" />
+      <ContactForm v-bind:email="email" />
+    </div>
   </div>
 </template>
 
 <script>
+import Address from '@/components/contact/Address';
+import ContactForm from '@/components/contact/ContactForm';
+
 export default {
   name: "contact",
+  components: {
+    Address,
+    ContactForm
+  },
   data() {
     return {
       phone: '2159990065',
@@ -26,5 +37,10 @@ export default {
 <style scoped>
   .contact {
     margin: 3rem auto;
+  }
+
+  .container {
+    width: 50%;
+    margin: 0 auto;
   }
 </style>

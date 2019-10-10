@@ -1,6 +1,6 @@
 <template>
   <div class="menu">
-    <h1>Menu</h1>
+    <h2>Menu</h2>
     <div class="container">
       <div v-bind:key="menuItem.id" v-for="menuItem in menu">
         <MenuItem v-bind:menuItem="menuItem" />

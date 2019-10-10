@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <h1>Welcome!</h1>
+    <h2>Welcome!</h2>
     <p>
       Lorem ipsum text.
     </p>
