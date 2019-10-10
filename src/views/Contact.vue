@@ -40,7 +40,7 @@ export default {
   }
 
   .container {
-    width: 50%;
+    width: 60vw;
     margin: 0 auto;
   }
 </style>

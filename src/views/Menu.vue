@@ -1,7 +1,7 @@
 <template>
   <div class="menu">
     <h2>Menu</h2>
-    <div class="container">
+    <div class="content">
       <div v-bind:key="menuItem.id" v-for="menuItem in menu">
         <MenuItem v-bind:menuItem="menuItem" />
       </div>
@@ -55,6 +55,18 @@ export default {
           name: 'Grilled Cheese',
           price: '10',
           desc: 'With or without tomato!'
+        },
+        {
+          image: 'http://placekitten.com/250/250',
+          name: 'Tuna Melt',
+          price: '8',
+          desc: 'Yummy fish!'
+        },
+        {
+          image: 'http://placekitten.com/250/250',
+          name: 'Gobbler',
+          price: '14',
+          desc: 'Thanksgiving sandwich!'
         }
       ]
     }
@@ -66,7 +78,9 @@ export default {
   .menu {
     margin: 3rem auto;
   }
-  .container {
+  .content {
+    margin: 0 auto;
+    width: 80vw;
     display: flex;
 
     justify-content: center;
